@@ -1,1 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+
+}
+
+.recipe {
+    
+   max-width: 400px;
+   height: 400px;
+   margin: 30px;
+   
+  
+}
+
+.lomein {
+    text-align: center;
+  
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+  
+    display: flex;
+    justify-content: center;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.stirfry {
+    text-align: center;
+}
+
+.thainoodle {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
 
