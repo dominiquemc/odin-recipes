@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yellowtail&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+span {
+    font-family: 'Yellowtail', cursive; 
+    font-size: 1.2em;
+    color: #A12B42;
+  
+    
 }
 
 .container {
@@ -18,12 +30,14 @@
    max-width: 400px;
    height: 400px;
    margin: 30px;
+   opacity: 0.7;
    
   
 }
 
 .lomein {
     text-align: center;
+    font-size: 1.5em;
   
     
 }
@@ -31,26 +45,51 @@
 .link {
     text-decoration: none;
     color: black;
-  
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 
 .link:hover {
-    color: blue;
+    background-color: #A12B42;
+    color: white;
+   
+  
+   
 }
 
 .stirfry {
     text-align: center;
+    font-size: 1.5em;
 }
 
 .thainoodle {
     text-align: center;
+    font-size: 1.5em;
 }
 
 h1 {
     text-align: center;
+    font-size: 2.8em;
 }
 
 
 
+
+/* LO MEIN INGREDIENT PAGE */
+
+.container2 {
+    display: flex;
+}
+
+.item1 {
+    width: 400px;
+}
+
+.ingredients {
+    
+    color: blue;
+}
+
+.h1 {
+    color: red;
+}
