@@ -79,17 +79,52 @@ h1 {
 
 .container2 {
     display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+    
 }
 
 .item1 {
+    height: 350px;
     width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
 }
 
-.ingredients {
+.ingredient-list1 {
+    margin-left: 35px;
+    font-size: 1.3em;
+    padding-left: 15px;
     
-    color: blue;
+    
 }
 
 .h1 {
-    color: red;
+    color: #A12B42;
+    margin: 30px;
+    text-decoration: underline;
+}
+
+/* THAI NOODLE INGREDIENT PAGE */
+
+.container3 {
+    display: flex;
+    justify-content: center;  
+    
+}
+
+.item2 {
+    max-width: 400px;
+    height: 450px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.ingredient-list2 {
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 1.3em;
+    
+    
 }
