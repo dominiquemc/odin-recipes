@@ -194,6 +194,20 @@ h1 {
   
 }
 
+/* RETURN FOR ALL PAGES */
+
+.return {
+    display: flex;
+    justify-content: center;
+    color: #A12B42;
+    text-decoration: none;
+    margin-top: 20px;
+  
+    
+}
+
+
+
 /* MEDIA QUERIES FOR INDEX.HTML */
 
 @media all and (max-width: 950px) {
@@ -282,3 +296,5 @@ h1 {
     
 }
 }
+
+
