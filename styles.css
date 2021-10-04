@@ -194,3 +194,91 @@ h1 {
   
 }
 
+/* MEDIA QUERIES FOR INDEX.HTML */
+
+@media all and (max-width: 950px) {
+    .container, .link {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap-reverse;
+   
+}
+}
+
+/* MEDIA QUERIES FOR LOMEIN.HTML */
+
+
+@media all and (max-width: 800px) {
+    .container2, .ingredient-list1 li {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+   
+}
+}
+
+@media all and (max-width: 800px) {
+    .item1 {
+    margin-left: 5%;
+    text-align: center;
+    
+}
+}
+
+/* MEDIA QUERIES FOR THAINOODLE.HTML */
+
+@media all and (max-width: 800px) {
+    .container3, .ingredient-list2 li {
+        display: inline-block;
+        text-align: center;
+        width: 90%;
+       
+       
+   
+}
+}
+
+@media all and (max-width: 800px) {
+    .tn-ingredients {
+        width: 95%;
+}
+}
+@media all and (max-width: 800px) {
+    .item2{
+        
+        margin-left: 5%;
+        text-align: center;
+}
+}
+
+/* MEDIA QUERIES FOR STIRFRY.HTML */
+
+@media all and (max-width: 800px) {
+    .container4, .ingredient-list3 li {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+   
+}
+}
+
+@media all and (max-width: 800px) {
+    .item3 {
+    margin-left: 5%;
+    text-align: center;
+    
+}
+}
+
+@media all and (max-width: 800px) {
+    .sf-ingredients {
+        width: 95%;
+}
+}
+
+@media all and (max-width: 800px) {
+    .h1 {
+    font-size: 2em;
+    
+}
+}
